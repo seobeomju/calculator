@@ -64,6 +64,7 @@ void stack_underflow(void)
 {
 	printf("Not enough operands in expression\n");
 	exit(EXIT_FAILURE);
+printf("202011901 서범주 과제제출합니다");
 }
 
 static void reallocate(Stack * stack)
